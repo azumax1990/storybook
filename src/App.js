@@ -7,9 +7,16 @@ import InboxScreen from './components/InboxScreen';
 import './index.css';
 function App() {
   return (
-    <Provider store={store}>
-      <InboxScreen />
-    </Provider>
+    <>
+      <div>aaaaaaa</div>
+      {/* <h1>bbbbbbbbbb</h1> */}
+      <p>cccccccccccc</p>
+      <p>dddddddddddd</p>
+      <p>eeeeeeeeeeeeeeeeeeeeeeeeeeee</p>
+      <Provider store={store}>
+        <InboxScreen />
+      </Provider>
+    </>
   );
 }
 export default App;
